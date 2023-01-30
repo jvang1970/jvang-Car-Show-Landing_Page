@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Show Sign Up</title>
+</head>
+
+<style> 
+    body{
+        background-image:url(../imgs/meritt-thomas-chevelle-carshow.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .main_content{
+       
+        text-align: center;
+        background: rgba(255, 255, 255, 0.4);
+        position: relative;
+        left:450px;
+        top: 150px;
+        height: 400px;
+        width: 450px;
+        padding: 10px;
+
+        border-radius: 10px;
+       
+    }
+
+    .input_bubble{
+        background-color: aliceblue;
+        font-style: italic;
+       /* font-family: 'Times New Roman', Times, serif; */
+       position: relative; 
+       
+    }
+
+    #form{
+        text-align: left;
+       padding: 10px;
+       font-family: sans-serif;
+       
+
+    }
+    #yearOfVehicle { 
+    
+    }
+
+    #register_button{
+        position: relative;
+        top: 15px;
+        left: 180px;
+    }
+
+</style>
+<body>
+    <div class="main_content">
+    <h1>Register to Join the Car Show</h1>
+    <h3>1965-1975 American Mucsle Cars Only</h3>
+    <div id="form">
+    <div>
+        <div>First Name</div>
+    <input type="text" placeholder="John" class="input_bubble">
+</div>
+<div>
+    <div>Last Name</div>
+    <input type="text" placeholder="Doe" class="input_bubble">
+    </div>
+    <div>
+        <div>email</div>
+    <input type="email" placeholder="email@gmail.com" class="input_bubble">
+</div>
+<div>
+    <div>Make</div>
+    <input type="text" placeholder="Ford" class="input_bubble">
+</div>
+<div>
+    <div>Model</div>
+    <input type="text" placeholder="Mustang" class="input_bubble">
+</div>
+<div id="yearOfVehicle">
+    <div>Year</div>
+    <input type="number" placeholder="1965-1975" min="1965" max="1975" class="input_bubble">
+</div>
+    <div>
+    <button id="register_button"> Register </button>
+    </div>
+</div>
+</div>
+
+</div>
+</body>
+</html>
